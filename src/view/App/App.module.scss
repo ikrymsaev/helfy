@@ -1,0 +1,14 @@
+.app {
+  min-height: 100vh;
+  background-image: url('../../../static/images/background-min.jpg');
+  background-size: cover;
+  background-position: center center;
+
+  & h1 {
+    text-align: center;
+    padding: 8px 0;
+  }
+}
+.test {
+  background-color: burlywood;
+}

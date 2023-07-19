@@ -1,0 +1,30 @@
+.field-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: beige;
+  width: fit-content;
+}
+.field-row {
+  display: flex;
+}
+.field-cell {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  border: 2px solid #6e6e6e;
+}
+.field-cell--plain {
+  background-color: #f8eeae;
+}
+.field-cell--jungle {
+  background-color: #89c945;
+}
+.field-cell--lake {
+  background-color: #5bb0d5;
+}
+.field-cell--mountain {
+  background-color: #ef5a38;
+}
+.field-cell--swamp {
+  background-color: #9c8b46;
+}

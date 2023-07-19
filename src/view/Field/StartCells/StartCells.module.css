@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+}
+.cell {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  background: #4d4d5b;
+  color: #ffffff;
+  font-size: 16px;
+  min-height: 40px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #6e6e6e;
+}

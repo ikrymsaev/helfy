@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es6",
+    "baseUrl": "src",
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "jsx": "preserve",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "paths": { 
+      "@view/*": ["./view/*"],
+			"@store/*": ["./store/*"],
+			"@lib/*": ["./lib/*"],
+			"@core/*": ["./core/*"],
+			"@components/*": ["./components/*"],
+			"@settings/*": ["./settings/*"]
+		}
+  }
+}

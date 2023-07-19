@@ -1,0 +1,18 @@
+{
+  "presets": [
+    [
+      "@babel/preset-react",
+      {
+        "runtime": "automatic",
+        "throwIfNamespace": false,
+        "importSource": "@lib/Helfy/jsx"
+      }
+    ],
+    "@babel/preset-env",
+    "@babel/preset-typescript"
+  ],
+  "plugins": [
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    "@babel/plugin-proposal-class-properties"
+  ]
+}

@@ -1,0 +1,1 @@
+export type TLandscape = 'plain' | 'jungle' | 'mountain' | 'lake' | 'swamp';

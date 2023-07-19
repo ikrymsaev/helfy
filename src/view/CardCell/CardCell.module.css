@@ -1,0 +1,230 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+.border {
+    background-color: black;
+    margin: 20px;
+    width: 210px;
+    height: 310px;
+    clip-path: polygon(10% 0, 90% 0, 100% 7%, 100% 93%, 90% 100%, 10% 100%, 0 93%, 0 7%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .wrapper {
+    background: radial-gradient(circle, rgba(106, 254, 12, 1) 0%, rgba(34, 89, 17, 1) 100%);
+    width: 200px;
+    height: 300px;
+    clip-path: polygon(10% 0, 90% 0, 100% 7%, 100% 93%, 90% 100%, 10% 100%, 0 93%, 0 7%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .image {
+    background: url('../../../static/images/cards/108-min.jpg') 0 0/contain no-repeat;
+    margin-top: 0.75em;
+    width: 175px;
+    height: 180px;
+    border: 1px solid black;
+    border-radius: 10%;
+  }
+  .description {
+    background: linear-gradient(
+      144deg,
+      rgba(208, 208, 193, 1) 0%,
+      rgba(255, 255, 255, 1) 48%,
+      rgba(208, 208, 193, 1) 100%
+    );
+    width: 160px;
+    height: 110px;
+    position: absolute;
+    top: 12em;
+    border-radius: 5%;
+    box-shadow: 0px 0px 10px 0px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .about {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    overflow: auto;
+  }
+  .about::-webkit-scrollbar {
+    width: 0;
+  }
+  .description_skills {
+    display: flex;
+    justify-content: space-around;
+  }
+  .skills {
+    width: 35px;
+    height: 30px;
+    background-color: red;
+    border: 1px solid white;
+    border-radius: 15%;
+    position: relative;
+    bottom: -10px;
+    box-shadow: 2px 3px 5px 0px black;
+    font-size: 17px;
+    line-height: 17px;
+    color: #ffffff;
+    font-family: 'Russo One', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .skills:nth-child(1) {
+    background-color: red;
+  }
+  .skills:nth-child(2) {
+    background-color: blue;
+  }
+  .skills:nth-child(3) {
+    background-color: goldenrod;
+  }
+  .skills:nth-child(4) {
+    background-color: green;
+  }
+  
+  .melee {
+    margin-top: -7px;
+    width: 18px;
+    height: 18px;
+    background-color: red;
+    clip-path: circle(50% at 50% 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .shooting {
+    margin-top: -7px;
+    width: 18px;
+    height: 18px;
+    background-color: blue;
+    clip-path: circle(50% at 50% 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .protection {
+    margin-top: -7px;
+    width: 18px;
+    height: 18px;
+    background-color: goldenrod;
+    clip-path: circle(50% at 50% 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .survivability {
+    margin-top: -7px;
+    width: 18px;
+    height: 18px;
+    background-color: green;
+    clip-path: circle(50% at 50% 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .skills_icon {
+    width: 15px;
+    height: 15px;
+    clip-path: circle(50% at 50% 50%);
+    background-color: white;
+  }
+  .melee_icon {
+    width: 15px;
+    height: 15px;
+    background-image: url(../../../static/images/icon/guns.svg);
+  }
+  .shooting_icon {
+    width: 15px;
+    height: 15px;
+    background-image: url(../../../static/images/icon/target.svg);
+  }
+  .protection_icon {
+    width: 15px;
+    height: 15px;
+    background-image: url(../../../static/images/icon/star.svg);
+  }
+  .survivability_icon {
+    width: 15px;
+    height: 15px;
+    background-image: url(../../../static/images/icon/shield.svg);
+  }
+  
